@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ffffff;
+  position: relative;
+}
+.ticketpage {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  background-color: #363740;
+  height: 1024px;
+  display: flex;
+  flex-direction: column;
+}
+
+.figmadetyra {
+  font-size: 2rem;
+  position: relative;
+  margin-top: 100px;
+  color: blue;
+  display: flex;
+  flex-direction: column;
+}
+.figma {
+  width: 1440px;
+  height: 1024px;
+}
+
+.sidebar {
+  margin-left: 80px;
+  margin-top: 79px;
+  display: flex;
+  flex-direction: column;
+  width: 258px;
+  height: 1024px;
+}
+.ticketword {
+  margin-bottom: 32px;
+  width: 169px;
+  margin-left: 31px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.databox {
+  display: flex;
+  flex-direction: column;
+  width: 258px;
+  height: 596px;
+  gap:20px
+}
+
+
+.box {display: flex; color: #9fa2b4;
+  flex: 1;
+  background-color: #ffffff;
+  border-radius: 8px;
+gap: 20px;
+  flex-direction: column;
+}
+.box:hover {
+color: blue;
+  cursor: grab;
+}
+
+  
+
+
+
+.text {
+  font-style: normal;
+  margin-top: 30px;
+  font-weight: 700;
+  font-size:  19px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.4px;
+
+  /* grayscale / gray */
+
+ 
+}
+
+.number {
+  /* Bold 40 (1 px) */
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
+  letter-spacing: 1px;
+
+  /* grayscale / black */
+  color: #000000;
+
+}
+.number:hover{color: blue;}
+  
